@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aashir Portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img  height="60px" width="60px"src="Aashir logo.webp" alt=""></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn">&#9776;</button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="greeting">Hello, I'm</p>
+      <h1>M. Aashir</h1>
+      <h2>Full-Stack Web Developer</h2>
+      <p class="intro">
+        I build responsive websites and full-stack web applications using HTML, CSS, JavaScript, React, Node.js, and Express.JS.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">My Projects</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="M.Aashir.jpeg" alt="M. Aashir">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>
+        I am a passionate Full-Stack Web Developer from Karachi. Currently, I am pursuing my Diploma of Associate Engineer (DAE) in Computer Information Technology (CIT) and completing Web & Mobile Application Development training at Saylani Mass IT Training (SMIT).
+      </p>
+      <p>
+        I enjoy turning ideas into clean, working web applications and continuously learning modern web technologies.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">HTML5</div>
+      <div class="skill-box">CSS3</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">React.js</div>
+      <div class="skill-box">Next.js</div>
+      <div class="skill-box">Tailwind CSS</div>
+      <div class="skill-box">Node.js</div>
+      <div class="skill-box">Express.js</div>
+      <div class="skill-box">Firebase</div>
+      <div class="skill-box">Git & GitHub</div>
+      <div class="skill-box">WordPress</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>HCM Lite</h3>
+        <p>An AI-assisted Human Capital Management web system built with React, Tailwind CSS, Node.js, and Express.js.</p>
+        <span class="tech-tag">MERN Stack</span>
+      </div>
+      <div class="project-card">
+        <h3>MaintainIQ</h3>
+        <p>A responsive asset maintenance platform designed with clean layouts and interactive features.</p>
+        <span class="tech-tag">HTML • CSS • JS</span>
+      </div>
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive personal portfolio website created to showcase my web development projects and technical skills.</p>
+        <span class="tech-tag">Frontend</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="contact-info">Email: aassirhashim048@gmail.com | Location: Karachi, Pakistan</p>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+      <p id="formMsg" class="form-msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 M. Aashir. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
